@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\AspNetCore\\MVC_2022\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBA5DAD-791D-4F10-BCC0-57E5BC77A443}|MVC_2022\\MVC_2022.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\aspnetcore\\mvc_2022\\mvc_2022\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FBA5DAD-791D-4F10-BCC0-57E5BC77A443}|MVC_2022\\MVC_2022.csproj|solutionrelative:mvc_2022\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FBA5DAD-791D-4F10-BCC0-57E5BC77A443}|MVC_2022\\MVC_2022.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\aspnetcore\\mvc_2022\\mvc_2022\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FBA5DAD-791D-4F10-BCC0-57E5BC77A443}|MVC_2022\\MVC_2022.csproj|solutionrelative:mvc_2022\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 60,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\AspNetCore\\MVC_2022\\MVC_2022\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_2022\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\AspNetCore\\MVC_2022\\MVC_2022\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC_2022\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T17:28:40.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\AspNetCore\\MVC_2022\\MVC_2022\\Program.cs",
+              "RelativeDocumentMoniker": "MVC_2022\\Program.cs",
+              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\AspNetCore\\MVC_2022\\MVC_2022\\Program.cs",
+              "RelativeToolTip": "MVC_2022\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T21:10:56.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
