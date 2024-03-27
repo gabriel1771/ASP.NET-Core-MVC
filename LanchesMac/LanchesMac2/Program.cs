@@ -1,6 +1,6 @@
 using LanchesMac2;
 
-namespace LanchesMac;
+namespace LanchesMac2;
 
 public class Program
 {

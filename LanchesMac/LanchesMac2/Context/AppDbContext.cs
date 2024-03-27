@@ -1,7 +1,7 @@
-﻿using LanchesMac.Models;
+﻿using LanchesMac2.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace LanchesMac.Context
+namespace LanchesMac2.Context
 {
     //herdando uma classe da framework EntityFrameworkCore
     public class AppDbContext : DbContext
@@ -22,5 +22,6 @@ namespace LanchesMac.Context
         //ou seja, com isso A DbContext consegue criar as tabelas e colunas
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Lanche> Lanches { get; set; }
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
     }
 }

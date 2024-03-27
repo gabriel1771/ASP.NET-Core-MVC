@@ -23,7 +23,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Demo">Demo</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Lanche" asp-action="List">Lanches</a>
                         </li>
                     </ul>
                 </div>
@@ -32,7 +32,7 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+            @RenderBody()   @* aqui é onde é executado as views *@
         </main>
     </div>
 

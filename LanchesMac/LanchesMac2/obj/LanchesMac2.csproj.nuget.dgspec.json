@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\LanchesMac2.csproj": {}
+    "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\LanchesMac2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\LanchesMac2.csproj": {
+    "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\LanchesMac2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\LanchesMac2.csproj",
+        "projectUniqueName": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\LanchesMac2.csproj",
         "projectName": "LanchesMac2",
-        "projectPath": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\LanchesMac2.csproj",
+        "projectPath": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\LanchesMac2.csproj",
         "packagesPath": "C:\\Users\\reisg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\obj\\",
+        "outputPath": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\reisg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

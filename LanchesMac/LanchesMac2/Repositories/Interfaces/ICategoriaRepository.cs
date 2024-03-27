@@ -1,6 +1,6 @@
-﻿using LanchesMac.Models;
+﻿using LanchesMac2.Models;
 
-namespace LanchesMac.Repositories.Interfaces
+namespace LanchesMac2.Repositories.Interfaces
 {
     public interface ICategoriaRepository
     {

@@ -1,3 +1,17 @@
-﻿@using LanchesMac2
+﻿@*
+aqui eu to definindo os namespace que todas as minhas views iram poder acessar
+com o ViewData, ViewBag, TempData, e qualque codigo c# que eu botar de pois do @
+*@
+@using LanchesMac2
 @using LanchesMac2.Models
+@using LanchesMac2.ViewModels;
+
+
+@*
+aqui eu to definindo as diretivas no caso, diretivas são coisas que posso usar
+alem do html, css, no caso consigo deixar mais dinamico, então preciso determinar
+o namespace onde essas "funções" estão.
+*@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+

@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\",
+  "WorkspaceRootPath": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac2\\lanchesmac2\\views\\lanche\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|solutionrelative:lanchesmac2\\views\\lanche\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac\\lanchesmac2\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|solutionrelative:lanchesmac2\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac2\\lanchesmac2\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac\\lanchesmac2\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|solutionrelative:lanchesmac2\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac\\lanchesmac2\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|solutionrelative:lanchesmac2\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac2\\lanchesmac2\\repositories\\lanchesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|solutionrelative:lanchesmac2\\repositories\\lanchesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac2\\lanchesmac2\\controllers\\lanchecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|solutionrelative:lanchesmac2\\controllers\\lanchecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac2\\lanchesmac2\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|solutionrelative:lanchesmac2\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|c:\\users\\reisg\\onedrive\\desktop\\devback\\dotnet\\aspnetcore\\lanchesmac\\lanchesmac2\\viewmodels\\carrinhocompraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEB5EA28-433C-4688-A027-6D20F41C1FC3}|LanchesMac2\\LanchesMac2.csproj|solutionrelative:lanchesmac2\\viewmodels\\carrinhocompraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,35 +25,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 60,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "LanchesMac2\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "LanchesMac2\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:54:09.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LanchesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\Repositories\\LanchesRepository.cs",
-              "RelativeDocumentMoniker": "LanchesMac2\\Repositories\\LanchesRepository.cs",
-              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\Repositories\\LanchesRepository.cs",
-              "RelativeToolTip": "LanchesMac2\\Repositories\\LanchesRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:48:46.977Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -72,42 +42,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "startup.cs",
-              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\startup.cs",
+              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\startup.cs",
               "RelativeDocumentMoniker": "LanchesMac2\\startup.cs",
-              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\startup.cs",
+              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\startup.cs",
               "RelativeToolTip": "LanchesMac2\\startup.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwB0AAABaAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:48:14.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T14:20:56.626Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\Views\\Lanche\\List.cshtml",
-              "RelativeDocumentMoniker": "LanchesMac2\\Views\\Lanche\\List.cshtml",
-              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\Views\\Lanche\\List.cshtml",
-              "RelativeToolTip": "LanchesMac2\\Views\\Lanche\\List.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-13T15:03:14.818Z",
+              "Title": "CarrinhoCompra.cs",
+              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\Models\\CarrinhoCompra.cs",
+              "RelativeDocumentMoniker": "LanchesMac2\\Models\\CarrinhoCompra.cs",
+              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\Models\\CarrinhoCompra.cs",
+              "RelativeToolTip": "LanchesMac2\\Models\\CarrinhoCompra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:54:53.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LancheController.cs",
-              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\Controllers\\LancheController.cs",
-              "RelativeDocumentMoniker": "LanchesMac2\\Controllers\\LancheController.cs",
-              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac2\\LanchesMac2\\Controllers\\LancheController.cs",
-              "RelativeToolTip": "LanchesMac2\\Controllers\\LancheController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Title": "CarrinhoCompraViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "RelativeDocumentMoniker": "LanchesMac2\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "RelativeToolTip": "LanchesMac2\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T15:00:51.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T14:31:12.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarrinhoCompraController.cs",
+              "DocumentMoniker": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\Controllers\\CarrinhoCompraController.cs",
+              "RelativeDocumentMoniker": "LanchesMac2\\Controllers\\CarrinhoCompraController.cs",
+              "ToolTip": "C:\\Users\\reisg\\OneDrive\\Desktop\\devBack\\DOTNET\\AspNetCore\\LanchesMac\\LanchesMac2\\Controllers\\CarrinhoCompraController.cs",
+              "RelativeToolTip": "LanchesMac2\\Controllers\\CarrinhoCompraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T14:17:53.281Z"
             }
           ]
         }

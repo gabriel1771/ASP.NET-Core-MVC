@@ -1,3 +1,17 @@
-﻿@{
+﻿@* aqui eu defino a views que vai carregar antes de qualque outra view *@
+@* e se eu quiser excluir apenas um ou mais arquivos desse layout, então é só
+eu definir null no arquivo da sua view:
+            @{
+                Layout = null;
+             }
+
+OU SE EU QUISER ADICIONAR OUTRO Layout é só especificar o layout que quero nos 
+mesmo: 
+            @{
+                Layout = "_Layout-Copy";
+            }
+*@
+
+@{
     Layout = "_Layout";
 }

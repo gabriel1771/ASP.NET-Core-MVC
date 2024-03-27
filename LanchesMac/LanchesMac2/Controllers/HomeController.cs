@@ -12,6 +12,8 @@ namespace LanchesMac2.Controllers
 
         public IActionResult Index()
         {
+
+            
             return View();
         }
         public IActionResult Demo()

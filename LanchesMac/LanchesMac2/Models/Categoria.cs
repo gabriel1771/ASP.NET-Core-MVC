@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LanchesMac.Models
+namespace LanchesMac2.Models
 {
     //aqui eu to reforçando que vai ser gerado uma tabela com o nome
     //categoria

@@ -1,14 +1,15 @@
-﻿using LanchesMac.Context;
-using LanchesMac.Repositories.Interfaces;
+﻿using LanchesMac2.Context;
+using LanchesMac2.Repositories.Interfaces;
 
-using LanchesMac.Repositories;
+using LanchesMac2.Repositories;
 
-using LanchesMac.Repositories;
-using LanchesMac.Repositories.Interfaces;
+using LanchesMac2.Repositories;
+using LanchesMac2.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
+using LanchesMac2.Models;
 
-namespace LanchesMac;
+namespace LanchesMac2;
 
 public class Startup
 {
@@ -37,6 +38,27 @@ public class Startup
         services.AddTransient<ILanchesRepository, LanchesRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
+        //adicionando o serviço que nos permite acessar os recursos do httpContext
+        //que é as ferramentas das requisições
+        //e esse serviço vai valer por todo o tempo de vida da aplicação
+        services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+        //aqui eu to criando um serviço normal igual todos os outros, porem
+        //ao chamar essa instancia gerada automaticamente pela injeção de dependenciaas
+        //eu já estou chamando o metodo statico da classe e então já estou criando ou 
+        //identificando uma sessão juntamente com a criação ou identificação de um carrinho de compras
+        // e também alem dessas caracteristicas, esse serviço é chamado
+        //a cada request, ou seja, vai gerar uma instancia diferente pra cada 
+        //cliente
+        services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
+
+       
+
+        //habilitando o cache da memoria 
+        services.AddMemoryCache();
+        //habilitando o session
+        services.AddSession(); 
+
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,6 +78,9 @@ public class Startup
         app.UseStaticFiles();
 
         app.UseRouting();
+
+        //ativando o session
+        app.UseSession();
 
         app.UseAuthorization();
 
