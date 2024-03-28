@@ -20,6 +20,7 @@ namespace LanchesMac2.Models
         public List<CarrinhoCompraItem> CarrinhoCompraItems { get; set; }
 
         //metodo que cuida da seção e do id da carrinho de compra se não tiver o carrinho ele cria
+        // e então carrega os atributos da classe com exceção da list
         public static CarrinhoCompra GetCarrinho(IServiceProvider services)
         {
             //define uma sessão
