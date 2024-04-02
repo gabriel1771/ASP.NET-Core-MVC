@@ -20,10 +20,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    @*aqui eu to chamando minhas componentes(mini views)*@
                     @await Component.InvokeAsync("CarrinhoCompraResumo")
+                    @await Component.InvokeAsync("CategoriaMenu")
                     <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    <a class="nav-link text-light" asp-area="" asp-controller="Lanche" asp-action="List">Lanches</a>
-                    <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
+                    @* <a class="nav-link text-light" asp-area="" asp-controller="Lanche" asp-action="List">Lanches</a>
+                    *@ <a class="nav-link text-light" asp-area="" asp-controller="Contato" asp-action="Index">Contato</a>
                 </div>
             </div>
         </nav>

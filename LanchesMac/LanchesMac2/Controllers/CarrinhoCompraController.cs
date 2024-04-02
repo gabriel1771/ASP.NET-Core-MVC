@@ -18,7 +18,7 @@ namespace LanchesMac2.Controllers
             _carrinhoCompra = carrinhoCompra;
         }
 
-        //metodo que cria view do carrinho de compra
+        //metodo que cria view do carrinho de compra e retorna os itens no mesmo
         public IActionResult Index()
         {
             var itens = _carrinhoCompra.GetCarrinhoCompraItens();
@@ -33,10 +33,11 @@ namespace LanchesMac2.Controllers
             return View(carrinhoCompraVm);
         }
 
-        //metodo que conversa com a view que adiciona itens ao carrinho
-        public IActionResult AdicionarItemNoCarrinhoCompra(int lacheId)
+        //metodo que adiciona itens ao carrinho e que conversa com a view 
+        public IActionResult AdicionarItemCarrinhoCompra(int lancheId)
         {
-            var lancheSelecionado = _lancheRepository.Lanches.FirstOrDefault(p => p.LancheId == lacheId);
+                             
+            var lancheSelecionado = _lancheRepository.Lanches.FirstOrDefault(p => p.LancheId == lancheId);
             
             if(lancheSelecionado != null)
             {
@@ -47,7 +48,7 @@ namespace LanchesMac2.Controllers
         }
 
         //metodo que conversa com a view que remove itens ao carrinho
-        public IActionResult RemoverItemDoCarrinhoCompra(int lancheId)
+        public IActionResult RemoverItemCarrinhoCompra(int lancheId)
         {
             var lancheSelecionado = _lancheRepository.Lanches.FirstOrDefault(p => p.LancheId == lancheId);
 

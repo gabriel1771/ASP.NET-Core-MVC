@@ -38,7 +38,10 @@ namespace LanchesMac2.Models
             session.SetString("CarrinhoId", carrinhoId);
 
             //aqui eu crio um carrinho onde retorna o carrinho com o contexto e o Id atribuido ou obtido 
-            return new CarrinhoCompra(context) { CarrinhoCompraId = carrinhoId };
+            return new CarrinhoCompra(context)
+            {
+                CarrinhoCompraId = carrinhoId
+            };
         }
 
         public void AdicionarAoCarrinho(Lanche lanche)

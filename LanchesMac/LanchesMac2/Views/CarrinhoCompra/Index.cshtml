@@ -1,14 +1,16 @@
 ﻿@model CarrinhoCompraViewModel
 
 <div class="container">
-    <div class="row">
-        <img src="~/Images//Full-Cart-icon.png" alt="Alternate Text" />
+    <div class="row checkoutForm">
+        
         <div>
+            <img src="~/Images//Full-Cart-icon.png" width="30" height="35" alt="Alternate Text" />
             <h4> Seu carrinho de compras :</h4>
         </div>
+
         <table class="table table-bordered table-striped  ">
 
-            <table>
+            <thead>
                 <tr>
                     <th>Quantiade</th>
                     <th>Lanche</th>
@@ -16,7 +18,7 @@
                     <th class="text-right">Subtotal</th
                     <th></th>
                 </tr>
-            </table>
+            </thead>
 
             <tbody>
                 @foreach(var item in Model.CarrinhoCompra.CarrinhoCompraItems)
@@ -30,7 +32,7 @@
                         </td>
                         <td class="text-center">
                             <a asp-controller="CarrinhoCompra" asp-action="RemoverItemCarrinhoCompra" asp-route-lancheId="@item.Lanche.LancheId">
-                                <img src="~/Images/delete.png" alt="Alternate Text" />
+                                <img src="~/Images/delete.png" width="20px" height="20px alt="Alternate Text" />
                             </a>
                         </td>
                     </tr>
@@ -50,9 +52,9 @@
 
         <div class="text-right"> 
             <div class="btn-group">
-                <a asp-controller="Pedido" asp-action="Checkout">Encerrar Pedido</a>
+                <a class="btn btn-success" asp-controller="Pedido" asp-action="Checkout">Encerrar Pedido</a>
                 &nbsp;&nbsp;&nbsp;
-                <a asp-controller="Lanche" asp-action="List">Continuar Comprando</a>
+                <a class="btn btn-primary" asp-controller="Lanche" asp-action="List">Continuar Comprando</a>
             </div>
         </div>
 
